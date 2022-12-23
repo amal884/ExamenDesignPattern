@@ -1,12 +1,14 @@
 package entitiesOfClassDiagram;
 
+import enumeration.staticStatuse;
+
 public class Attribut {
 
     private String nom;
     private String type ;
-    private visibiliteStatus visibiliteStatus;
+    private enumeration.visibiliteStatus visibiliteStatus;
     private staticStatuse staticStatus ;
-    private finalStatus finalStatus ;
+    private enumeration.finalStatus finalStatus ;
 
 
 }

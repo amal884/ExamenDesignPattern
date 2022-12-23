@@ -1,5 +1,9 @@
 import entitiesOfClassDiagram.Entity;
 import relationOfClassDiagram.Relation;
+import strategyPattern.GenererStrategyImpl;
+import strategyPattern.IExporterStrategy;
+import strategyPattern.IExporterStrategyJSON;
+import strategyPattern.IGenererStrategy;
 
 import java.util.ArrayList;
 import java.util.List;

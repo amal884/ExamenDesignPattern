@@ -1,11 +1,8 @@
 package relationOfClassDiagram;
 
-import entitiesOfClassDiagram.Annotation;
-import entitiesOfClassDiagram.Interface;
-
 public class Association implements Relation{
 
-    private associationType associationType ;
+    private enumeration.associationType associationType ;
 
     private AssociationSource associationSource ;
 

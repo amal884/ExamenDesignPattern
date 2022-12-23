@@ -1,6 +1,8 @@
 package entitiesOfClassDiagram;
 
 public class Parameters {
+
+
     private String nom ;
     private String type ;
 

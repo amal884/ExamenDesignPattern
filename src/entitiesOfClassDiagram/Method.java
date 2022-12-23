@@ -1,5 +1,8 @@
 package entitiesOfClassDiagram;
 
+import enumeration.methodStatus;
+import enumeration.visibiliteStatus;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,7 +13,7 @@ public class Method {
     private methodStatus methodStatus;
     private List<Parameters> parameters = new ArrayList<>();
 
-    public Method(String nom, String type, entitiesOfClassDiagram.visibiliteStatus visibiliteStatus, entitiesOfClassDiagram.methodStatus methodStatus, List<Parameters> parameters) {
+    public Method(String nom, String type, enumeration.visibiliteStatus visibiliteStatus, enumeration.methodStatus methodStatus, List<Parameters> parameters) {
         this.nom = nom;
         this.type = type;
         this.visibiliteStatus = visibiliteStatus;
@@ -35,19 +38,19 @@ public class Method {
         this.type = type;
     }
 
-    public entitiesOfClassDiagram.visibiliteStatus getVisibiliteStatus() {
+    public enumeration.visibiliteStatus getVisibiliteStatus() {
         return visibiliteStatus;
     }
 
-    public void setVisibiliteStatus(entitiesOfClassDiagram.visibiliteStatus visibiliteStatus) {
+    public void setVisibiliteStatus(enumeration.visibiliteStatus visibiliteStatus) {
         this.visibiliteStatus = visibiliteStatus;
     }
 
-    public entitiesOfClassDiagram.methodStatus getMethodStatus() {
+    public enumeration.methodStatus getMethodStatus() {
         return methodStatus;
     }
 
-    public void setMethodStatus(entitiesOfClassDiagram.methodStatus methodStatus) {
+    public void setMethodStatus(enumeration.methodStatus methodStatus) {
         this.methodStatus = methodStatus;
     }
 

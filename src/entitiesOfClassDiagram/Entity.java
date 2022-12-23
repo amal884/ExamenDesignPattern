@@ -3,10 +3,7 @@ package entitiesOfClassDiagram;
 public abstract class Entity {
     protected String name ;
 
-
-
-
-    protected int level = 0; // le niveau de l'element dans l'hierarchie
+    public int level = 0; // le niveau de l'element dans l'hierarchie
 
     public Entity(String name) {
         this.name = name;

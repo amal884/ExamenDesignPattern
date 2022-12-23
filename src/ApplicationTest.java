@@ -1,8 +1,10 @@
+import adapterPattern.AdapterImplGenerator;
 import entitiesOfClassDiagram.Class;
-import entitiesOfClassDiagram.Group;
-import entitiesOfClassDiagram.Observer;
-
-import java.util.Scanner;
+import compositePattern.Group;
+import observerPattern.Observer;
+import observerPattern.ObserverImpl1;
+import observerPattern.ObserverImpl2;
+import strategyPattern.IExporterStrategySVG;
 
 public class ApplicationTest {
 

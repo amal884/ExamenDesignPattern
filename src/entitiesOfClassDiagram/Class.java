@@ -1,7 +1,8 @@
 package entitiesOfClassDiagram;
 
-import javafx.beans.InvalidationListener;
-import javafx.beans.Observable;
+import enumeration.classStatus;
+import observerPattern.IObservable;
+import observerPattern.Observer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -64,11 +65,11 @@ public class Class extends Entity  implements IObservable {
         this.observers = observers;
     }
 
-    public entitiesOfClassDiagram.classStatus getClassStatus() {
+    public enumeration.classStatus getClassStatus() {
         return classStatus;
     }
 
-    public void setClassStatus(entitiesOfClassDiagram.classStatus classStatus) {
+    public void setClassStatus(enumeration.classStatus classStatus) {
         this.classStatus = classStatus;
     }
 
